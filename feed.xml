@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>kate-lomax</title>
-    <link href="http://katelomax.net/feed.xml" rel="self" />
-    <link href="http://katelomax.net" />
-    <updated>2018-05-14T13:34:25+01:00</updated>
+    <link href="http://www.katelomax.net/feed.xml" rel="self" />
+    <link href="http://www.katelomax.net" />
+    <updated>2018-05-14T13:36:10+01:00</updated>
     <author>
         <name>Kate</name>
     </author>
-    <id>http://katelomax.net</id>
+    <id>http://www.katelomax.net</id>
 
     <entry>
         <title>Back to blogging</title>
         <author>
             <name>Kate</name>
         </author>
-        <link href="http://katelomax.net/switching-to-publii/"/>
-        <id>http://katelomax.net/switching-to-publii/</id>
+        <link href="http://www.katelomax.net/switching-to-publii/"/>
+        <id>http://www.katelomax.net/switching-to-publii/</id>
 
         <updated>2018-05-14T11:16:07+01:00</updated>
             <summary></summary>
@@ -32,8 +32,8 @@
         <author>
             <name>Kate</name>
         </author>
-        <link href="http://katelomax.net/announcing-making-library-makers/"/>
-        <id>http://katelomax.net/announcing-making-library-makers/</id>
+        <link href="http://www.katelomax.net/announcing-making-library-makers/"/>
+        <id>http://www.katelomax.net/announcing-making-library-makers/</id>
             <category term="making"/>
             <category term="makerspaces"/>
             <category term="libraries"/>
@@ -58,8 +58,8 @@
         <author>
             <name>Kate</name>
         </author>
-        <link href="http://katelomax.net/upcoming-digital-maker-workshops-and-talks/"/>
-        <id>http://katelomax.net/upcoming-digital-maker-workshops-and-talks/</id>
+        <link href="http://www.katelomax.net/upcoming-digital-maker-workshops-and-talks/"/>
+        <id>http://www.katelomax.net/upcoming-digital-maker-workshops-and-talks/</id>
             <category term="workshops"/>
             <category term="talks"/>
             <category term="making"/>
@@ -71,7 +71,7 @@
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <img src="http://katelomax.net/media/posts/3/integrated-circuit.jpg" alt="" />
+                    <img src="http://www.katelomax.net/media/posts/3/integrated-circuit.jpg" alt="" />
                 <p>There are lots of great maker events happening over the summer.</p>
 <p>I'm super excited to be part of the <a href="http://www.ioi.london/makerfaire/">Institute of Imagination Mini Maker Faire</a> at OxoTowerWharf on the 11 and 12th of June. I'll be there to help out with the <a href="http://makercart.org.uk">Makercart</a>, a mobile pop-up makerspace for schools and libraries with a 3d printer, digital cutter, electronics, micro-controllers and robotics.</p>
 <p><a href="http://www.artefacto.org.uk">Artefacto</a> will also be hosting a Digital Making Workshop at Redbridge Library for London Technology Week, find out more on the <a href="http://www2.redbridge.gov.uk/cms/leisure_and_libraries/libraries/events__activities/london_technology_week.aspx">Redbridge Libraries website</a>.</p>
@@ -84,8 +84,8 @@
         <author>
             <name>Kate</name>
         </author>
-        <link href="http://katelomax.net/my-favourite-info-resource-is-my-rss-reader/"/>
-        <id>http://katelomax.net/my-favourite-info-resource-is-my-rss-reader/</id>
+        <link href="http://www.katelomax.net/my-favourite-info-resource-is-my-rss-reader/"/>
+        <id>http://www.katelomax.net/my-favourite-info-resource-is-my-rss-reader/</id>
             <category term="writing"/>
             <category term="rss"/>
             <category term="jinfo"/>
@@ -112,8 +112,8 @@
         <author>
             <name>Kate</name>
         </author>
-        <link href="http://katelomax.net/for-when-you-need-to-install-omeka-on-shared-hosting/"/>
-        <id>http://katelomax.net/for-when-you-need-to-install-omeka-on-shared-hosting/</id>
+        <link href="http://www.katelomax.net/for-when-you-need-to-install-omeka-on-shared-hosting/"/>
+        <id>http://www.katelomax.net/for-when-you-need-to-install-omeka-on-shared-hosting/</id>
             <category term="tips"/>
             <category term="omeka"/>
             <category term="note-to-self"/>
@@ -180,8 +180,8 @@ RewriteRule ^check-mod-rewrite([^/]*)\.html$ mod-rewrite.php?enabled=true [L]
         <author>
             <name>Kate</name>
         </author>
-        <link href="http://katelomax.net/an-introduction-to-making-library-makers/"/>
-        <id>http://katelomax.net/an-introduction-to-making-library-makers/</id>
+        <link href="http://www.katelomax.net/an-introduction-to-making-library-makers/"/>
+        <id>http://www.katelomax.net/an-introduction-to-making-library-makers/</id>
 
         <updated>2018-04-12T13:09:02+01:00</updated>
             <summary></summary>
@@ -218,8 +218,8 @@ RewriteRule ^check-mod-rewrite([^/]*)\.html$ mod-rewrite.php?enabled=true [L]
         <author>
             <name>Kate</name>
         </author>
-        <link href="http://katelomax.net/interactive-fiction-frameworks-and-constructivist-learning/"/>
-        <id>http://katelomax.net/interactive-fiction-frameworks-and-constructivist-learning/</id>
+        <link href="http://www.katelomax.net/interactive-fiction-frameworks-and-constructivist-learning/"/>
+        <id>http://www.katelomax.net/interactive-fiction-frameworks-and-constructivist-learning/</id>
             <category term="twine"/>
             <category term="theories"/>
             <category term="pedagogy"/>
@@ -247,8 +247,8 @@ RewriteRule ^check-mod-rewrite([^/]*)\.html$ mod-rewrite.php?enabled=true [L]
         <author>
             <name>Kate</name>
         </author>
-        <link href="http://katelomax.net/notes-and-shiny-new-things-from-mozfest-2014/"/>
-        <id>http://katelomax.net/notes-and-shiny-new-things-from-mozfest-2014/</id>
+        <link href="http://www.katelomax.net/notes-and-shiny-new-things-from-mozfest-2014/"/>
+        <id>http://www.katelomax.net/notes-and-shiny-new-things-from-mozfest-2014/</id>
             <category term="training"/>
             <category term="tools"/>
             <category term="p2pu"/>
@@ -274,8 +274,8 @@ RewriteRule ^check-mod-rewrite([^/]*)\.html$ mod-rewrite.php?enabled=true [L]
         <author>
             <name>Kate</name>
         </author>
-        <link href="http://katelomax.net/an-introduction-to-keyframe-css3-animations/"/>
-        <id>http://katelomax.net/an-introduction-to-keyframe-css3-animations/</id>
+        <link href="http://www.katelomax.net/an-introduction-to-keyframe-css3-animations/"/>
+        <id>http://www.katelomax.net/an-introduction-to-keyframe-css3-animations/</id>
             <category term="keyframe"/>
             <category term="ebooks"/>
             <category term="animation"/>
@@ -331,8 +331,8 @@ RewriteRule ^check-mod-rewrite([^/]*)\.html$ mod-rewrite.php?enabled=true [L]
         <author>
             <name>Kate</name>
         </author>
-        <link href="http://katelomax.net/the-long-s-of-ebook-editing/"/>
-        <id>http://katelomax.net/the-long-s-of-ebook-editing/</id>
+        <link href="http://www.katelomax.net/the-long-s-of-ebook-editing/"/>
+        <id>http://www.katelomax.net/the-long-s-of-ebook-editing/</id>
             <category term="public"/>
             <category term="pressbooks"/>
             <category term="open"/>
