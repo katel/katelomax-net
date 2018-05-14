@@ -1,0 +1,369 @@
+<!doctype html><html amp lang="en"><head><meta charset="utf-8"><title>For when you need to install Omeka on shared hosting - Kate Lomax</title><meta name="robots" content="index, follow"><link rel="canonical" href="https://katel.github.io/katelomax-net/for-when-you-need-to-install-omeka-on-shared-hosting/"><meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css"><script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script><script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://katel.github.io/katelomax-net/amp/for-when-you-need-to-install-omeka-on-shared-hosting/"},"headline":" For when you need to install Omeka on shared hosting","datePublished":"2016-03-24T13:07","dateModified":"2018-04-12T13:07","description":"It's not always possible to install Omeka on a VPS or other dedicated server. Sometimes you just have to make do with shared web hosting and all of the caveats that come with that. These are some collected notes about troubleshooting Omeka installation on shared&hellip;","author":{"@type":"Person","name":"Kate"},"publisher":{"@type":"Organization","name":"Kate"}}</script><style amp-custom="">body,
+		div,
+		dl,
+		dt,
+		dd,
+		ul,
+		ol,
+		li,
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		pre,
+		figure,
+		form,
+		fieldset,
+		p,
+		blockquote,
+		th,
+		td {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: 'Roboto', sans-serif;
+			font-size: 1.1rem;
+			font-weight: 400;
+			line-height: 1.6;
+			background: #fff;
+			color: #000000;
+
+		}
+		a,
+		a:visited {
+			color: #039be5;
+			text-decoration: none;
+			outline: none;
+		}
+		a:hover,
+		a:active,
+		a:focus {
+			color: #000;
+		}
+		li {
+			list-style: none;
+		}
+		b,
+		strong {
+			font-weight: 700;
+		}
+		blockquote,
+		p,
+		ul,
+		ol,
+		dl,
+		table {
+			margin-top: 1.6rem;
+		}
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			color: #000000;
+			letter-spacing: -0.03rem;
+			line-height: 1.2;
+			margin-top: 2.93333rem;
+		}
+
+		h1 {
+			font-size: 1.56621rem;
+
+		}
+
+		h2 {
+			font-size: 1.39219rem;
+		}
+
+		h3 {
+			font-size: 1.2375rem;
+		}
+
+		h4 {
+			font-size: 1.1rem;
+		}
+
+		h5 {
+			font-size: 0.97778rem;
+		}
+
+		h6 {
+			font-size: 0.86914rem;
+		}
+		h1+p,
+		h2+p,
+		h3+p,
+		h4+p,
+		h5+p,
+		h6+p {
+			margin-top: 0.8rem;
+		}
+		h1 > sup {
+			color: #777777;
+			font-size: 0.95rem;
+            font-weight: 400;
+		}
+		blockquote {
+			border-left: 0.2rem solid #039be5;
+			color: #039be5;
+			padding: 0.8rem 0 0.8rem 1.86667rem;
+		}
+		blockquote cite {
+			color: #111111;
+			display: block;
+			font-size: 0.9rem;
+			margin-top: 0.8rem;
+		}
+		blockquote cite:before {
+			content: "- ";
+		}
+		ul {
+			margin-left: 1rem;
+		}
+		ul>li {
+			list-style-position: outside;
+			padding-left: 1rem;
+		}
+		ol {
+			margin-left: 0;
+		}
+		ol>li {
+			counter-increment: step-counter;
+			position: relative;
+			padding-left: 2rem;
+		}
+		ol>li:before {
+			content: counter(step-counter) ".";
+			color: #111111;
+			left: 0;
+			position: absolute;
+		}
+		dl dt {
+			font-weight: 400;
+		}
+		pre {
+			margin: 1.6rem 0 0;
+			padding: 1.6rem 3.2rem;
+			white-space: pre-wrap;
+			word-wrap: break-word;
+		}
+		code,
+		pre {
+			background-color: #f6f6f6;
+			font-family: "Monaco", "Courier New", monospace;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+			display: block;
+			max-width: 100%;
+			overflow-x: auto;
+			vertical-align: top;
+			text-align: left;
+			white-space: nowrap;
+		}
+		table th {
+			border-bottom: 2px solid #dedede;
+			padding: 0.8rem 1.33333rem;
+		}
+		table tr:nth-child(2n) {
+			background: #f3f3f3;
+		}
+		table td {
+			padding: 0.8rem 1.33333rem;
+		}
+        figure {
+            margin: 2rem 0 1rem 0;
+        }
+		figcaption {
+			clear: both;
+			color: #4d4d4d;
+			font-style: italic;
+			font-size: 0.7rem;
+			margin: 0.8rem 0 0;
+			text-align: center;
+		}
+		.wrap {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 0 4%;
+		}
+		.navbar {
+            background: #039be5;
+            box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+            line-height: 3;
+            margin-bottom: 2.128rem;
+            max-height: 4rem;
+            padding: 0 4%;
+        }
+		.navbar>div {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			text-align: left;max-width: 600px;
+			margin: 0 auto;
+		}
+		.navbar a {
+			color: #fff;
+			text-decoration: none;
+		}
+		.logo {
+            display: block;
+			line-height: 1;
+			margin: 0 auto;
+			height: 2rem;
+            text-indent: -9999px;
+            width: 240px;
+		}
+        .logo.logo-text {
+            line-height: 1.6;
+            text-align: center;
+            text-indent: 0;
+        }
+		.navbar-sidebar-toggle {
+			left: 0;
+			position: relative;
+			text-indent: -99999rem;
+		}
+		.navbar-sidebar-toggle:before {
+            content: "";
+            display: block;
+			border-top: 0.375rem double #ffffff;
+			border-bottom: 0.125rem solid #ffffff;
+			height: 0.125rem;
+			position: absolute;
+			text-indent: 0;
+			top: 50%;
+			width: 1.3rem;
+			transform: translate(0px, -50%);
+		}
+        amp-img {
+            max-width: 100%;
+        }
+		amp-sidebar {
+			background: #fff;
+			width: 240px;
+		}
+		amp-sidebar li {
+			color: #212121;
+			font-size: 0.95rem;
+            font-weight: 700;
+			list-style: none;
+			 padding: 0.532rem 1rem;
+		}
+		amp-sidebar a, amp-sidebar a:visited {
+			border-left: 2px solid transparent;
+            color: #212121;
+		}
+		amp-sidebar ul ul {
+			margin: 1rem 0 0;
+		}
+		amp-sidebar li li { font-weight: 400;
+			 padding: 0.266rem 0 0.266rem 1rem;
+		}
+		.hero {
+			margin-bottom: 2.93333rem;
+		}
+		article  {
+			margin-bottom: 4rem;
+		}
+		article > header {
+			color: #777777;
+			font-size: 0.95rem;
+			margin-bottom: 1.866rem;
+		}
+		aside {
+			margin: 1.6rem 0 1.866rem;
+		}
+		amp-social-share {
+			border-radius: 50%;
+			background-size: 70%;
+            margin-right: 5px;
+		}
+		.pagination {
+			border-top: 1px solid #ddd;
+			display: flex;
+			justify-content: space-between;
+			align-items: baseline;
+		}
+		.pagination a {
+			color: #000000;
+			display: block;
+			font-size: 0.95rem;
+			font-weight: 700;
+			line-height: 1;
+			margin: 0 0 0.532rem;
+			position: relative;
+		}
+		.pagination a + a {
+            width: 50%;
+            text-align: right;
+        }
+		.pagination-prev {
+			padding: 0.8rem 0.8rem 0.8rem 1.6rem;
+		}
+		.pagination-next {
+			padding: 0.8rem 1.6rem 0.8rem 0.8rem;
+		}
+		.pagination-next:before {
+			content: "\2192";
+			position: absolute;
+			right: 0;
+		}
+		.pagination-prev:before {
+			content: "\2190";
+			position: absolute;
+			left: 0;
+		}
+		.post-tag {
+			font-size: 0.95rem;
+			margin-bottom: 1.866rem;
+		}
+		.post-tag dt {
+			float: left;
+		}
+		.post-tag dd {
+			display: inline-block;
+			list-style: none;
+			margin: 0 0 0 0.266rem;
+		}
+		.post-tag dd>a:after {
+			content: ", ";
+		}
+		.bottom {
+			background: #039be5;
+			color: #fff;
+			font-size: 0.95rem;
+			padding: 1rem 4%;
+			text-align: center;
+		}
+        .author-avatar {
+            margin: 1rem auto;
+            width: 100px;
+        }</style><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script async src="https://cdn.ampproject.org/v0.js"></script></head><body><nav class="navbar"><div><a on="tap:navbar-sidebar.toggle" class="navbar-sidebar-toggle" title="Menu">Menu</a> <a class="logo logo-text" href="https://katel.github.io/katelomax-net/amp">Kate Lomax</a></div></nav><main class="wrap"><article class="post"><header><h1>For when you need to install Omeka on shared hosting</h1><p>by <a href="https://katel.github.io/katelomax-net/amp/authors/kate/" rel="nofollow" title="Kate">Kate</a>,<br>published on <time datetime="2016-03-24T13:07">March 24, 2016</time></p></header><p>It's not always possible to install <a href="http://omeka.org">Omeka</a> on a VPS or other dedicated server. Sometimes you just have to make do with shared web hosting and all of the caveats that come with that.</p><p>These are some collected notes about troubleshooting Omeka installation on shared hosting based on some of my own trial and error and some useful responses from the kind people on the <a href="http://omeka.org/forums/">Omeka support forums</a>.</p><p>The full requirements for installing Omeka available <a href="http://omeka.org/codex/Preparing_to_Install">here</a> but it's the <em>mod_rewrite</em> and <em>ImageMagick</em> ones that can be particular bugbears.</p><p>There are a list of <a href="http://omeka.org/codex/Hosting_Suggestions">'Hosting suggestions'</a> on the Omeka site to help spare you some of this pain but they are largely US-based and focused on academic institutions.</p><h3 id="enable-development-mode">Enable development mode</h3><p>The first step in troubleshooting is to know what the trouble is that you're .. ummm .. shooting. You can enable error reporting on Omeka by uncommenting the relevant line in the .htaccess file in your root directory</p><p><code>SetEnv APPLICATION_ENV development</code></p><h3 id="imagemagick">ImageMagick</h3><p>ImageMagick is required by Omeka for resizing and processing images and other file uploads. You can install Omeka but it requires shell access to the server which isn't available on a lot of shared hosting (<a href="https://www.webfaction.com/">Webfaction</a> is the only exception that springs to mind).</p><p>First, if you have ImageMagick installed it a) has to be the executable version and b) you need to know the location so you can add this to the admin settings. This is usually /usr/bin but not always.</p><p>You can check the directory path is added correctly from the Admin settings page</p><p><amp-img src="http://katelomax.net/images/omeka-directory-path-screenshot.jpg" sizes="(min-width: 61.3125em) 50vw, 100vw" srcset="http://katelomax.net/images/responsive/omeka-directory-path-screenshot-xs.jpg 300w ,http://katelomax.net/images/responsive/omeka-directory-path-screenshot-sm.jpg 480w ,http://katelomax.net/images/responsive/omeka-directory-path-screenshot-md.jpg 768w" alt="ImageMagick directory path" layout="responsive"></amp-img></p><p>If you're on shared hosting and ImageMagick either isn't installed or otherwise isn't working, you can try using the PHP extension instead of the executable version of ImageMagick. This is via the imagick PECL package that can be installed from cPanel.</p><p>You'll need to update the configuration to bypass the expected ImageMagick setup.</p><p>In the application/config/config.ini file, uncomment the line and change it from:</p><p><code>fileDerivatives.strategy = "Omeka_File_Derivative_Strategy_ExternalImageMagick"</code></p><p>to:</p><p><code>fileDerivatives.strategy = "Omeka_File_Derivative_Strategy_Imagick"</code></p><p>This will remove the directory path option from the settings page but will allow you to upload files to items in your Omeka collection.</p><h3 id="too-many-redirects">Too many redirects</h3><p>Another issue you might encounter is that ol' 'too many redirects ' loop when trying to access the installer.</p><p>This can usually be resolved by ensuring there is an .htaccess file in the installation directory as well as the site's root folder:</p><p>Something like:</p><pre><code class="highlight plaintext">&lt;Files install.php&gt;
+Allow from all
+&lt;/Files&gt;
+
+&lt;Files mod-rewrite.php&gt;
+Allow from all
+&lt;/Files&gt;
+
+&lt;Files check-mod-rewrite.html&gt;
+Allow from all
+&lt;/Files&gt;
+
+# This allows us to verify that mod_rewrite is enabled
+&lt;IfModule mod_rewrite.c&gt;
+RewriteEngine On
+
+# If know that mod_rewrite is enabled, but you are still getting mod_rewrite errors,
+# uncomment the line below and replace "/install/" with your install directory.
+# RewriteBase /install/
+
+RewriteRule ^check-mod-rewrite([^/]*)\.html$ mod-rewrite.php?enabled=true [L]
+&lt;/IfModule&gt;
+</code></pre><aside><dl class="post-tag"><dt>Tags:</dt><dd><a href="https://katel.github.io/katelomax-net/amp/tag/archiving/">archiving</a></dd><dd><a href="https://katel.github.io/katelomax-net/amp/tag/content/">content</a></dd><dd><a href="https://katel.github.io/katelomax-net/amp/tag/documentation-matters/">documentation-matters</a></dd><dd><a href="https://katel.github.io/katelomax-net/amp/tag/management/">management</a></dd><dd><a href="https://katel.github.io/katelomax-net/amp/tag/note-to-self/">note-to-self</a></dd><dd><a href="https://katel.github.io/katelomax-net/amp/tag/omeka/">omeka</a></dd><dd><a href="https://katel.github.io/katelomax-net/amp/tag/tips/">tips</a></dd></dl><amp-social-share type="facebook" width="40" height="40" data-param-app_id="" data-param-text=" For when you need to install Omeka on shared hosting" data-param-href="https://katel.github.io/katelomax-net/amp/for-when-you-need-to-install-omeka-on-shared-hosting/"></amp-social-share><amp-social-share type="twitter" width="40" height="40" data-param-text="c" data-param-url="https://katel.github.io/katelomax-net/amp/for-when-you-need-to-install-omeka-on-shared-hosting/"></amp-social-share><amp-social-share type="pinterest" width="40" height="40" data-param-url="https://katel.github.io/katelomax-net/amp/for-when-you-need-to-install-omeka-on-shared-hosting/"></amp-social-share></aside></article><nav class="pagination"></nav></main><footer class="bottom">Powered by Publii</footer><amp-sidebar id="navbar-sidebar" layout="nodisplay"><ul></ul></amp-sidebar></body></html>
