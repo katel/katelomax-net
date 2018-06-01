@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://katelomax.net/shiny-and-new-feminist-library-catalogue/",
+            "url": "https://katelomax.net/shiny-and-new-feminist-library-catalogue/",
+            "title": "Shiny and new Feminist Library catalogue",
+            "content_html": "<p>I recently worked with the <a href=\"http://www.feministlibrary.co.uk\" target=\"_blank\" rel=\"noopener noreferrer\">Feminist Library</a> to upgrade and migrate their Koha-based Library Management System. </p>\n<p>We made quite a leap from version Koha 3.12 to 17.11 and the new, shiny and responsive (!) catalogue is now available at: </p>\n<p><a href=\"https://catalogue.feministlibrary.co.uk\">https://catalogue.feministlibrary.co.uk</a></p>\n<p>I haven't worked with <a href=\"https://koha-community.org\">Koha LMS</a> much recently so it's good to be back and see all the great work that's happened on one of the best and friendliest open source projects in libraryland. </p>\n<p>And, digging through my notes, it looks like the first time I installed Koha for the Feminist Library was way back in  2008! </p>\n<p>Looking forward to seeing their collection continue to expand and evolve. </p>",
+            "image": "https://katelomax.net/media/posts/12/",
+            "author": {
+                "name": "Kate"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-06-01T17:12:31+01:00",
+            "date_modified": "2018-06-01T17:14:15+01:00"
+        },
+        {
             "id": "https://katelomax.net/switching-to-publii/",
             "url": "https://katelomax.net/switching-to-publii/",
             "title": "Back to blogging",
@@ -167,27 +181,6 @@
             ],
             "date_published": "2014-10-23T13:13:00+01:00",
             "date_modified": "2018-04-12T13:14:04+01:00"
-        },
-        {
-            "id": "https://katelomax.net/the-long-s-of-ebook-editing/",
-            "url": "https://katelomax.net/the-long-s-of-ebook-editing/",
-            "title": "The long S of ebook editing",
-            "content_html": "<p>At <a href=\"http://www.artefacto.org.uk\">artefacto</a>, we do quite a few projects with open access and public domain texts. Many of these publications have been converted to digital formats using automated processes and this can result in some ..interesting interpretations of the text.</p>\n<p>For example, The Internet Archive uses a 'Scribe system' to scan books and then run OCR software over the PDF files. You can see a short video on the Scribe digitisation process <a href=\"https://archive.org/details/InternetArchive-Tour\">here</a>. Project Gutenberg uses <a href=\"http://www.pgdp.net/c/%20and%20http://www.pgdp.net/c/faq/ProoferFAQ.php\">a process of distributed proofreaders</a> to tidy up and improve the text of it's books.</p>\n<p>These processes are constantly changing to take advantage of new scanning and digitisation technologies. Despite this, a lot of encoding and transcribing issues still make it through into the published version. Old style 'f''s suddenly become rendered as an 's'. Old spellings (or different fonts) get misunderstood and misinterpreted. And formatting..the less said the better.</p>\n<p>One of secrets of epub editing is that epub files are really just a variation of a zip file. This means, that if you need to 'unpack' an epub file to make minor edits, you can change the file extension from .epub to .zip and then unzip the file to access particular components.</p>\n<p>An epub 'file' is really a collection of files in a particular structure. This includes - mimetype file META-INF folder - container.xml Document folder - HTML, CSS, image files, plus OPF and NCX files</p>\n<p>The minimum files you really, really, really need for a valid .epub files are the META-INF/container.xml and the mimetype file. The rest might vary a bit between different ebook readers and authoring tools.</p>\n<p>A lot of people use Adobe InDesign for creating and viewing epub files but there are various open source tools that you can also use (but if you are using InDesign, <a href=\"http://epubsecrets.com/\">epubsecrets.com</a> is a great source of tips). And, on the more expensive side of things, there are commercial applications such as the Â£200 oXygen Author software. Browser plugins such as EPUBreader plugin are also useful for creating and testing ebooks.</p>\n<p>We used a few different tools to edit the ebooks. Calibre ebook manager now includes eBook editing functionality that takes off where Sigil left off. <a href=\"http://www.jutoh.com/\">Jutoh</a> is another tool that rose from the ashes of Sigil. There are also smaller tools like <a href=\"http://extensions.services.openoffice.org/en/project/Writer2ePub\">Writer2ePub</a> plugin for LibreOffice that came in handy for rebuilding smaller titles from scratch.</p>\n<p>Also <a href=\"http://pressbooks.com/\">PressBooks</a> is an online platform for creating ebooks in various formats. Itâ€™s open source, so you can either use the hosted version or install it on your own server.</p>\n<p>The workflow that I've used for our most recent open book distribution project was primarily based on Calibre. Find and Replace in ebook editors is a bit of a godsend as many of the encoding issues you find will be through-out the text and trying to edit these one by one in a 500 page book can be a bit overwhelming. There are also some handy shortcuts like adding new assets (such as images) directly from the menu in Calibre and (re)creating the table of contents. Of course, if you are familiar with the epub format then you have the option to use a text editor to do edits such as these and this can be particularly helpful when it comes to encoding issues.</p>\n<p>At the end, you can cross your fingers and head to the epub validator at: <a href=\"http://katelomax.net/2014/09/05/validator.idpf.org/\">validator.idpf.org</a> to help identify any remaining issues.</p>\n<p>All in all, it can be messy and intricate work to tidy up the files to make these readable in the range of ebook reader apps and software currently available.</p>",
-            "author": {
-                "name": "Kate"
-            },
-            "tags": [
-                   "public",
-                   "pressbooks",
-                   "open",
-                   "epub",
-                   "ebooks",
-                   "domain",
-                   "calibre",
-                   "access"
-            ],
-            "date_published": "2014-09-05T13:16:00+01:00",
-            "date_modified": "2018-04-12T13:16:40+01:00"
         }
     ]
 }
