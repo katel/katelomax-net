@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://katelomax.net/playground-as-learning-environment/",
+            "url": "https://katelomax.net/playground-as-learning-environment/",
+            "title": "On inspiring rather than teaching",
+            "content_html": "<blockquote>I don’t recall ever feeling a sense of excitement over something I was told to do. As a child, cleaning my room never excited me. As an adult, paying bills and taxes never thrills me. But a playground, with its lack of instructions and open structure, can. The blank canvas of a playground demands creation in order to give it sense and purpose. A playground’s inherent lack of guidelines holds its great appeal.</blockquote>\nFrom <em><a href=\"http://hybridpedagogy.org/tech-agency-voice-on-not-teaching/\" target=\"_blank\" rel=\"noopener noreferrer\">Tech, Agency, Voice (On Not Teaching)</a> </em>by <span class=\"infinite-blog-info\">Chris Friend, the keynote at  IPL 2018: New Learning Horizons: Digital and Hybrid Pedagogy / Nye lærinshorisonter — digital og hybrid pedagogikk on 31 May 2018 at NTNU, the Norwegian University of Science and Technology.</span>",
+            "image": "https://katelomax.net/media/posts/13/",
+            "author": {
+                "name": "Kate"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-06-13T13:41:40+01:00",
+            "date_modified": "2018-06-13T13:47:35+01:00"
+        },
+        {
             "id": "https://katelomax.net/shiny-and-new-feminist-library-catalogue/",
             "url": "https://katelomax.net/shiny-and-new-feminist-library-catalogue/",
             "title": "Shiny and new Feminist Library catalogue",
@@ -163,24 +177,6 @@
             ],
             "date_published": "2014-11-02T13:11:00+00:00",
             "date_modified": "2018-04-12T13:12:05+01:00"
-        },
-        {
-            "id": "https://katelomax.net/an-introduction-to-keyframe-css3-animations/",
-            "url": "https://katelomax.net/an-introduction-to-keyframe-css3-animations/",
-            "title": " An introduction to keyframe CSS3 animations",
-            "content_html": "<p>Part of the CSS3 specification that I've found myself using more and more are keyframe animations. If you haven't used them before, this is a bit of an overview to how keyframes are structured.</p>\n<p>There are a couple of different aspects to the keyframe.</p>\n<h4 id=\"keyframe-selector---rule-and-identifier\">1. keyframe selector - @rule and identifier</h4>\n<p>First, there's the keyframes @ rule where you specify your identifier (pick a name, ideally a semantic/descriptive one) for your animation that we will be referring to later in the code and define the animation sequence. You also need to include a list of keyframe selectors (waypoints for your animation). The keyframe list must at a minimum include rules for the start (0% or from) and end (100% or to) states.</p>\n<h4 id=\"keyframe-declaration-block\">2. keyframe declaration block</h4>\n<p>These are the rule sets where you can configure the timing and duration and other behaviour of the animation.</p>\n<p>The properties and sub-properties of the animation are applied to the HTML element you are animating. Some examples of sub-properties to declare include the <em>animation-name</em>, <em>animation-duration</em>, <em>animation-direction</em> and <em>animation-iteration-count</em> .</p>\n<p>For more information about sub-properties, check out the <a href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations\">mozilla documentation</a> which is, as always, aces.</p>\n<p><em>nb. the examples are given without vendor prefixes, so don't forget to add those in live uses.</em></p>\n<h3 id=\"code-example-1-pulsing-image\">Code Example 1: Pulsing image</h3>\n<pre><code class=\"highlight plaintext\">@keyframes pulse {\n from { transform: none; }\n 50% { transform: scale(1.4); }\n to { transform: none; }\n }\n</code></pre>\n<pre><code class=\"highlight plaintext\"> #demo img {\n/* expanded version of animation: pulse .5s infinite; */\n   animation-name: pulse;\n   animation-duration: 3s;\n   animation-iteration-count: infinite;\n }\n</code></pre>\n<h3 id=\"example-2---fading-away-heading\">example 2 - Fading away heading</h3>\n<pre><code class=\"highlight plaintext\">\n @keyframes fadeAway {\n    0% {opacity: 0;}\n    100% {opacity: 1;}\n }\n\n</code></pre>\n<pre><code class=\"highlight plaintext\"> h3 {\n   animation-name: fadeAway;\n   animation-duration: 5s;\n }\n</code></pre>\n<p>And to go crazy with keyframes, check out http://www.cssanimate.com/</p>",
-            "author": {
-                "name": "Kate"
-            },
-            "tags": [
-                   "keyframe",
-                   "ebooks",
-                   "animation",
-                   "CSS3",
-                   "CSS"
-            ],
-            "date_published": "2014-10-23T13:13:00+01:00",
-            "date_modified": "2018-04-12T13:14:04+01:00"
         }
     ]
 }
