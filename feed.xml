@@ -3,12 +3,43 @@
     <title>kate-lomax</title>
     <link href="https://katelomax.net/feed.xml" rel="self" />
     <link href="https://katelomax.net" />
-    <updated>2018-06-13T13:48:08+01:00</updated>
+    <updated>2018-07-02T17:17:43+01:00</updated>
     <author>
         <name>Kate</name>
     </author>
     <id>https://katelomax.net</id>
 
+    <entry>
+        <title>Libraries of Reykjavik</title>
+        <author>
+            <name>Kate</name>
+        </author>
+        <link href="https://katelomax.net/libraries-of-reykjavik/"/>
+        <id>https://katelomax.net/libraries-of-reykjavik/</id>
+            <category term="travelling"/>
+            <category term="reykjavik"/>
+            <category term="libraries"/>
+            <category term="iceland"/>
+
+        <updated>2018-07-02T17:17:27+01:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://katelomax.net/media/posts/14/IMG_20180628_112215097.jpg" alt="" />
+                <p>Got a chance to visit some public libraries in Reykjavik when in Iceland last week and it was impressive to see things like Podcast Studios and a Hammock (!) at Reykjavik City Library. We also stumbled across some Pi-Top CEED workstations at Bókasafn Seltjarnarness (which is technically Greater Reykjavik, not one of the city branches).</p>
+<div class="gallery" contenteditable="false" data-is-empty="false" data-columns="3">
+<figure class="gallery__item"><a href="https://katelomax.net/media/posts/14/gallery/IMG_20180628_110933749_HDR.jpg" data-size="1200x1600"><img src="https://katelomax.net/media/posts/14/gallery/IMG_20180628_110933749_HDR-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://katelomax.net/media/posts/14/gallery/36086516_878179915710966_5961538714222985216_n.jpg" data-size="1080x1080"><img src="https://katelomax.net/media/posts/14/gallery/36086516_878179915710966_5961538714222985216_n-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+<figure class="gallery__item"><a href="https://katelomax.net/media/posts/14/gallery/35459591_505436086555853_6408711811226402816_n.jpg" data-size="1080x1080"><img src="https://katelomax.net/media/posts/14/gallery/35459591_505436086555853_6408711811226402816_n-thumbnail.jpg" alt="" width="240" height="240"></a></figure>
+</div>
+<p>I particularly like seeing the growing role of media production labs in public libraries. You an read more about <em>Kompan</em>, the podcast studio at <a href="http://borgarbokasafn.is/en/content/studio-kompan">http://borgarbokasafn.is/en/content/studio-kompan</a></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>On inspiring rather than teaching</title>
         <author>
@@ -279,33 +310,6 @@ RewriteRule ^check-mod-rewrite([^/]*)\.html$ mod-rewrite.php?enabled=true [L]
 <p>Twine is an open source framework for creating text-based games. You can see a showcase of Twine-produced games via the Twine website at <a href="http://twinery.org/">twinery.org</a> but I guess the most well-know example is <a href="http://www.depressionquest.com/dqfinal.html">Depression Quest</a>.</p>
 <p>Twine is a great tool for active learning and very easy to get started with. You don't necessarily need coding skills to create a Twine - though it certainly helps when it comes to adding additional interactions and other advanced features. There's a new online Twine authoring tool in beta and Twine clients for both Mac and Windows.</p>
 <p>This is the <em>why</em> of Twine, I'll be looking into <em>How</em> to use Twine for creative learning in an upcoming post.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title> Notes and shiny new things from Mozfest 2014</title>
-        <author>
-            <name>Kate</name>
-        </author>
-        <link href="https://katelomax.net/notes-and-shiny-new-things-from-mozfest-2014/"/>
-        <id>https://katelomax.net/notes-and-shiny-new-things-from-mozfest-2014/</id>
-            <category term="training"/>
-            <category term="tools"/>
-            <category term="p2pu"/>
-            <category term="mozfest14"/>
-            <category term="mozfest"/>
-            <category term="learning"/>
-            <category term="education"/>
-
-        <updated>2018-04-12T13:12:05+01:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                <p>The thing about Mozfest that stays with you after all the smoke has cleared is the sheer scale of the thing. Despite attending what felt like a respectable amount of sessions (summarised on the <a href="http://artefacto.org.uk/content/mozfest-2014-locating-the-library">artefacto blog</a>), I still didn't manage to make it to a fraction of the workshops that I wanted to. Mozfest is always an unrivaled exercise in FOMO, so you do need to find a balance of looking at the schedule and twitter feed and, y'know, <em>not</em> looking at the schedule or twitter feed.</p>
-<p>This year, I got a chance to test out the <a href="http://howto.p2pu.org/">P2PU 'Course in a box'</a>, which provides a simple toolkit for creating open courses using Github, Discourse and Jekyll. This is something we're now considering for Flossie and other collaborative learning events.</p>
-<p>There was also lots of talk about <a href="http://www.brck.com/">Brck</a>, which looks like it will come in handy for offroad (or offgrid) teaching.</p>
-<p>I've been on a bit of a sabbatical from any kind of training and education provision for the past year (less teaching, more building) so it was great to hear about all the neat things that places like the <a href="http://resbaz.tumblr.com/">Research Bazaar</a> and <a href="http://software-carpentry.org/">Software Carpentry</a> do and it's reassuring to see that librarians are working hard to fill gaps left by formal LIS education - particularly <a href="https://github.com/mozillascience/training_for_libraries">when it comes to coding skills</a>.</p>
-<p>And like last year, I was floored by all the great tools and platforms coming out of the data journalism world (many of which have potential applications for GLAM and digital humanities work). The <a href="http://socialmediadesk.tumblr.com/post/101175205111/every-tool-and-project-i-learned-about-at-mozfest">Social Media Desk</a> has an invaluable summary of the rest of this year's shiny new things.</p>
             ]]>
         </content>
     </entry>
