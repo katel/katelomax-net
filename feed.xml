@@ -3,12 +3,34 @@
     <title>kate-lomax</title>
     <link href="https://katelomax.net/feed.xml" rel="self" />
     <link href="https://katelomax.net" />
-    <updated>2018-07-02T17:17:43+01:00</updated>
+    <updated>2018-07-16T16:58:30+01:00</updated>
     <author>
         <name>Kate</name>
     </author>
     <id>https://katelomax.net</id>
 
+    <entry>
+        <title>Digital literacy in libraries: joining the dots - guest post on the Princh blog</title>
+        <author>
+            <name>Kate</name>
+        </author>
+        <link href="https://katelomax.net/guest-post-on-the-princh-blog/"/>
+        <id>https://katelomax.net/guest-post-on-the-princh-blog/</id>
+
+        <updated>2018-07-16T16:58:06+01:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://katelomax.net/media/posts/15/" alt="" />
+                <p>I wrote a guest post for the <em>Princh</em> blog linking together various ideas about creativity, context and learning and how it all relates to how we support digitial literacy in libraries. </p>
+<blockquote>
+<p>As digital technology becomes ubiquitous, digital literacy support needs to be equally ready and available – it can no longer sit alone and isolated in the event calendar.</p>
+</blockquote>
+<p>You can find the full post at: </p>
+<p><a href="https://princh.com/digital-literacy-in-libraries-joining-the-dots-insights-from-kate-lomax/" target="_blank" rel="noopener noreferrer">https://princh.com/digital-literacy-in-libraries-joining-the-dots-insights-from-kate-lomax/</a></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Libraries of Reykjavik</title>
         <author>
@@ -281,35 +303,6 @@ RewriteRule ^check-mod-rewrite([^/]*)\.html$ mod-rewrite.php?enabled=true [L]
 <p>We're planning further events, including some more in-depth training around specific hardware and electronics and other areas related to 'making'.</p>
 <p>If you're interested in finding out more or attending future events, please sign up to the mailing list at:</p>
 <p><a href="http://eepurl.com/bOzGkz">http://eepurl.com/bOzGkz</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title> Interactive fiction frameworks &amp; constructivist learning</title>
-        <author>
-            <name>Kate</name>
-        </author>
-        <link href="https://katelomax.net/interactive-fiction-frameworks-and-constructivist-learning/"/>
-        <id>https://katelomax.net/interactive-fiction-frameworks-and-constructivist-learning/</id>
-            <category term="twine"/>
-            <category term="theories"/>
-            <category term="pedagogy"/>
-            <category term="learning"/>
-            <category term="interactive"/>
-            <category term="fiction"/>
-            <category term="constructivism"/>
-            <category term="IF"/>
-
-        <updated>2018-04-12T13:10:29+01:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                <p>One of the great things about Interactive Fiction frameworks like <a href="http://twinery.org">Twine</a> and <a href="http://undum.com/">Undum</a> is that their application extends far beyond creating linear text-based games (and the skies the limit, as even a cursory a glance at the <a href="https://twitter.com/twinethreads">TwineThreads</a> Twitter feed shows).</p>
-<p>It's no secret that online learning suffers from high abandonment rates. It often still falls down when it comes to providing an interactive, learner-led and social learning experience and this is one of the reasons that MOOCs and other recent developments still haven't quite cracked the user engagement code.</p>
-<p>Interactive fiction uses a "choose your own adventure" (for want of a better, less-trademarked term) structure. It's an interesting model for learning activities because it provides choices (and the possibility of a range of outcomes). And this can lead to learning pathways that reflect both the experiences and the goals of the learner.</p>
-<p>Twine is an open source framework for creating text-based games. You can see a showcase of Twine-produced games via the Twine website at <a href="http://twinery.org/">twinery.org</a> but I guess the most well-know example is <a href="http://www.depressionquest.com/dqfinal.html">Depression Quest</a>.</p>
-<p>Twine is a great tool for active learning and very easy to get started with. You don't necessarily need coding skills to create a Twine - though it certainly helps when it comes to adding additional interactions and other advanced features. There's a new online Twine authoring tool in beta and Twine clients for both Mac and Windows.</p>
-<p>This is the <em>why</em> of Twine, I'll be looking into <em>How</em> to use Twine for creative learning in an upcoming post.</p>
             ]]>
         </content>
     </entry>

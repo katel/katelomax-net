@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://katelomax.net/guest-post-on-the-princh-blog/",
+            "url": "https://katelomax.net/guest-post-on-the-princh-blog/",
+            "title": "Digital literacy in libraries: joining the dots - guest post on the Princh blog",
+            "content_html": "<p>I wrote a guest post for the <em>Princh</em> blog linking together various ideas about creativity, context and learning and how it all relates to how we support digitial literacy in libraries. </p>\n<blockquote>\n<p>As digital technology becomes ubiquitous, digital literacy support needs to be equally ready and available – it can no longer sit alone and isolated in the event calendar.</p>\n</blockquote>\n<p>You can find the full post at: </p>\n<p><a href=\"https://princh.com/digital-literacy-in-libraries-joining-the-dots-insights-from-kate-lomax/\" target=\"_blank\" rel=\"noopener noreferrer\">https://princh.com/digital-literacy-in-libraries-joining-the-dots-insights-from-kate-lomax/</a></p>",
+            "image": "https://katelomax.net/media/posts/15/",
+            "author": {
+                "name": "Kate"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-07-16T16:57:28+01:00",
+            "date_modified": "2018-07-16T16:58:06+01:00"
+        },
+        {
             "id": "https://katelomax.net/libraries-of-reykjavik/",
             "url": "https://katelomax.net/libraries-of-reykjavik/",
             "title": "Libraries of Reykjavik",
@@ -154,27 +168,6 @@
             ],
             "date_published": "2016-02-23T13:08:00+00:00",
             "date_modified": "2018-04-12T13:09:02+01:00"
-        },
-        {
-            "id": "https://katelomax.net/interactive-fiction-frameworks-and-constructivist-learning/",
-            "url": "https://katelomax.net/interactive-fiction-frameworks-and-constructivist-learning/",
-            "title": " Interactive fiction frameworks &amp; constructivist learning",
-            "content_html": "<p>One of the great things about Interactive Fiction frameworks like <a href=\"http://twinery.org\">Twine</a> and <a href=\"http://undum.com/\">Undum</a> is that their application extends far beyond creating linear text-based games (and the skies the limit, as even a cursory a glance at the <a href=\"https://twitter.com/twinethreads\">TwineThreads</a> Twitter feed shows).</p>\n<p>It's no secret that online learning suffers from high abandonment rates. It often still falls down when it comes to providing an interactive, learner-led and social learning experience and this is one of the reasons that MOOCs and other recent developments still haven't quite cracked the user engagement code.</p>\n<p>Interactive fiction uses a \"choose your own adventure\" (for want of a better, less-trademarked term) structure. It's an interesting model for learning activities because it provides choices (and the possibility of a range of outcomes). And this can lead to learning pathways that reflect both the experiences and the goals of the learner.</p>\n<p>Twine is an open source framework for creating text-based games. You can see a showcase of Twine-produced games via the Twine website at <a href=\"http://twinery.org/\">twinery.org</a> but I guess the most well-know example is <a href=\"http://www.depressionquest.com/dqfinal.html\">Depression Quest</a>.</p>\n<p>Twine is a great tool for active learning and very easy to get started with. You don't necessarily need coding skills to create a Twine - though it certainly helps when it comes to adding additional interactions and other advanced features. There's a new online Twine authoring tool in beta and Twine clients for both Mac and Windows.</p>\n<p>This is the <em>why</em> of Twine, I'll be looking into <em>How</em> to use Twine for creative learning in an upcoming post.</p>",
-            "author": {
-                "name": "Kate"
-            },
-            "tags": [
-                   "twine",
-                   "theories",
-                   "pedagogy",
-                   "learning",
-                   "interactive",
-                   "fiction",
-                   "constructivism",
-                   "IF"
-            ],
-            "date_published": "2014-12-02T13:09:00+00:00",
-            "date_modified": "2018-04-12T13:10:29+01:00"
         }
     ]
 }
